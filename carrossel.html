@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Carrossel</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/carrossel.js" defer></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="fade">
+                <div class="n_text"> 1 / 5 </div>
+                <img src="img/img_gato1.jpg">
+                <div class="i_text"> Gato Laranja </div>
+            </div>
+            
+            <div class="fade">
+                <div class="n_text"> 2 / 5 </div>
+                <img src="img/img_gato2.jpeg">
+                <div class="i_text"> Gatinho laranja de frente </div>
+            </div>
+            
+            <div class="fade">
+                <div class="n_text"> 3 / 5 </div>
+                <img src="img/img_gato3.jpg">
+                <div class="i_text"> Siamês olhando para cima </div>
+            </div>
+            
+            <div class="fade">
+                <div class="n_text"> 4 / 5 </div>
+                <img src="img/img_gato4.jpg">
+                <div class="i_text"> Minha gata Gala </div>
+            </div>
+
+            <div class="fade">
+                <div class="n_text"> 5 / 5 </div>
+                <img src="img/img_gato5.jpg">
+                <div class="i_text"> Minha gatinha gala dormindo</div>
+            </div>
+
+            <a class="prev" onclick="plus_slides(-1)"> &#10094; </a>
+            <a class="next" onclick="plus_slides(1)"> &#10095; </a>
+        </div>
+
+        <div class="dot_box">
+            <span class="dot" onclick="current_slides(1)"></span>
+            <span class="dot" onclick="current_slides(2)"></span>
+            <span class="dot" onclick="current_slides(3)"></span>
+            <span class="dot" onclick="current_slides(4)"></span>
+            <span class="dot" onclick="current_slides(5)"></span>
+        </div>
+    </body>
+
+</html>
